@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">English Learning App</string>
+    
+    <!-- Navigation -->
+    <string name="title_speech">Speech Learning</string>
+    <string name="title_visual">Visual Learning</string>
+    <string name="title_chat">Chat Practice</string>
+    
+    <!-- Speech Fragment -->
+    <string name="sentence_to_practice">Sentence to Practice:</string>
+    <string name="listen_pronunciation">Listen to Pronunciation</string>
+    <string name="record_speech">Record Your Speech</string>
+    <string name="listening">Listening...</string>
+    <string name="recognized_text">Recognized: %s</string>
+    <string name="accuracy">Accuracy: %d%%</string>
+    <string name="error_recognition">Error in speech recognition</string>
+    
+    <!-- Visual Learning Fragment -->
+    <string name="words_learned">Words Learned: %d / %d</string>
+    <string name="word_image">Word Image</string>
+    <string name="example_sentence">Example Sentence:</string>
+    <string name="mark_as_learned">Mark as Learned</string>
+    <string name="already_learned">Already Learned</string>
+    <string name="next_word">Next Word</string>
+    
+    <!-- Chat Fragment -->
+    <string name="type_message">Type your message in English...</string>
+    <string name="send">Send</string>
+</resources>
