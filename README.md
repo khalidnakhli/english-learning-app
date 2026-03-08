@@ -95,8 +95,10 @@ You can use Android Studio's Image Asset tool to generate these icons.
 ## Building APK
 
 To export the app as an APK file, see the detailed guide:
+- **📍 WHERE IS APK?** [WHERE_IS_APK_AR.md](WHERE_IS_APK_AR.md) - أين يوجد ملف APK؟
 - **Arabic**: [BUILD_APK_AR.md](BUILD_APK_AR.md) - دليل بناء APK بالعربية
 - **English**: [BUILD_APK.md](BUILD_APK.md) - APK Build Guide
+- **Quick Reference**: [QUICK_BUILD_REFERENCE.md](QUICK_BUILD_REFERENCE.md) - مرجع سريع
 
 ### Quick Build Commands:
 
@@ -118,6 +120,8 @@ To export the app as an APK file, see the detailed guide:
 ./gradlew assembleRelease
 ```
 
-**APK Location:**
+**📂 APK Location (after building):**
 - Debug: `app/build/outputs/apk/debug/app-debug.apk`
 - Release: `app/build/outputs/apk/release/app-release-unsigned.apk`
+
+**⚠️ Note:** The APK files will only exist after you build the project!
