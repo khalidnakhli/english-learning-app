@@ -91,3 +91,33 @@ The app currently references standard launcher icons (`ic_launcher` and `ic_laun
 - `app/src/main/res/mipmap-xxxhdpi/`
 
 You can use Android Studio's Image Asset tool to generate these icons.
+
+## Building APK
+
+To export the app as an APK file, see the detailed guide:
+- **Arabic**: [BUILD_APK_AR.md](BUILD_APK_AR.md) - دليل بناء APK بالعربية
+- **English**: [BUILD_APK.md](BUILD_APK.md) - APK Build Guide
+
+### Quick Build Commands:
+
+**Using the build script (recommended):**
+```bash
+# For debug/testing APK
+./build_apk.sh debug
+
+# For release/production APK
+./build_apk.sh release
+```
+
+**Using Gradle directly:**
+```bash
+# Debug APK
+./gradlew assembleDebug
+
+# Release APK
+./gradlew assembleRelease
+```
+
+**APK Location:**
+- Debug: `app/build/outputs/apk/debug/app-debug.apk`
+- Release: `app/build/outputs/apk/release/app-release-unsigned.apk`
