@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تطبيق تعلم الإنجليزية</string>
+    
+    <!-- Navigation -->
+    <string name="title_speech">التعلم بالصوت</string>
+    <string name="title_visual">التعلم بالصور</string>
+    <string name="title_chat">الدردشة التفاعلية</string>
+    
+    <!-- Speech Fragment -->
+    <string name="sentence_to_practice">الجملة للتدريب:</string>
+    <string name="listen_pronunciation">استمع للنطق الصحيح</string>
+    <string name="record_speech">سجل صوتك</string>
+    <string name="listening">جاري الاستماع...</string>
+    <string name="recognized_text">النص المسجل: %s</string>
+    <string name="accuracy">الدقة: %d%%</string>
+    <string name="error_recognition">خطأ في التعرف على الصوت</string>
+    
+    <!-- Visual Learning Fragment -->
+    <string name="words_learned">الكلمات المتعلمة: %d / %d</string>
+    <string name="word_image">صورة الكلمة</string>
+    <string name="example_sentence">مثال على الاستخدام:</string>
+    <string name="mark_as_learned">تحديد كمتعلم</string>
+    <string name="already_learned">متعلم بالفعل</string>
+    <string name="next_word">الكلمة التالية</string>
+    
+    <!-- Chat Fragment -->
+    <string name="type_message">اكتب رسالتك بالإنجليزية...</string>
+    <string name="send">إرسال</string>
+</resources>
